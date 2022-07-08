@@ -1,0 +1,129 @@
+//{
+//  "tags": {
+//    "allowUnknownTags": true,
+//    "dictionaries": [
+//      "jsdoc",
+//      "closure"
+//    ]
+//  },
+//  "source": {
+//    "include": [
+//      "."
+//    ],
+//    "includePattern": ".(jsx|js|ts|tsx)$"
+//  },
+//  "sourceType": "module"
+//}
+
+
+
+{
+  "tags": {
+    "allowUnknownTags": false
+  },
+  "source": {
+    "include": ["."], // 읽을 파일명, 디렉토리명 배열
+    "includePattern": ".(jsx|js|ts|tsx)$", // 파일의 패턴
+    "exclude": ["./docs"], // 제외할 파일명, 디렉토리명 배열
+    "excludePattern": "(node_modules/|docs)" // 제외할 파일의 패턴
+  },
+  "plugins": [
+    "plugins/markdown"
+  ],
+  "opts": {
+    "template": "node_modules/docdash", // 템플릿 경로
+    "encoding": "utf8",
+    "destination": "./docs", // 문서를 만들 경로
+    "recurse": true,
+    "verbose": true
+  },
+  "templates": {
+    "cleverLinks": false,
+    "monospaceLinks": false,
+    "default": {
+      "outputSourceFiles": true
+    }
+  },
+  "docdash": { // docdash 템플릿 옵션
+    "static": false, // 탐색 모음 내부에 정적 멤버를 표시합니다.
+    "sort": true,
+    "search": true
+  },
+  "sectionOrder": [ // 탐색 모음에서 기본 섹션을 주문합니다(여기에 표시된 기본 순서).
+    "Classes",
+    "Modules",
+    "Externals",
+    "Events",
+    "Namespaces",
+    "Mixins",
+    "Tutorials",
+    "Interfaces"
+  ],
+  "typedefs": false,
+  "commonNav": false,
+  //  "openGraph": {
+//    "title": "Docdash",
+//    "type": "website",
+//    "image": "https://cloud.githubusercontent.com/assets/447956/13398144/4dde7f36-defd-11e5-8909-1a9013302cb9.png",
+//    "site_name": "Docdash",
+//    "url": "http://clenemt.github.io/docdash/"
+//  },
+//  "meta": {
+//    "title": "Docdash",
+//    "description": "A clean, responsive documentation template theme for JSDoc 3.",
+//    "keyword": "jsdoc, docdash"
+//  },
+//  "menu": {                       // Adding additional menu items after Home
+//    "Project Website": {        // Menu item name
+//      "href":"https://myproject.com", //the rest of HTML properties to add to manu item
+//      "target":"_blank",
+//      "class":"menu-item",
+//      "id":"website_link"
+//    },
+//    "Forum": {
+//      "href":"https://myproject.com.forum",
+//      "target":"_blank",
+//      "class":"menu-item",
+//      "id":"forum_link"
+//    }
+//  }
+  "collapse": false
+}
+
+
+
+
+
+
+//{
+//  "tags": {
+//    "allowUnknownTags": false
+//  },
+//  "source": {
+//    "include": ["./src"], // 읽을 파일명, 디렉토리명 배열
+//    "includePattern": ".js$", // 파일의 패턴
+//    "exclude": ["./docs"], // 제외할 파일명, 디렉토리명 배열
+//    "excludePattern": "(node_modules/|docs)" // 제외할 파일의 패턴
+//  },
+//  "plugins": [
+//    "plugins/markdown"
+//  ],
+//  "opts": {
+//    "template": "node_modules/docdash", // 템플릿 경로
+//    "encoding": "utf8",
+//    "destination": "./docs", // 문서를 만들 경로
+//    "recurse": true,
+//    "verbose": true
+//  },
+//  "templates": {
+//    "cleverLinks": false,
+//    "monospaceLinks": false,
+//    "default": {
+//      "outputSourceFiles": false
+//    }
+//  },
+//  "docdash": { // docdash 템플릿 옵션
+//    "static": false,
+//    "sort": true
+//  }
+//}

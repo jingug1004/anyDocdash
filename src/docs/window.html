@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="utf-8">
+    <title>window - Documentation</title>
+    
+    
+    <script src="scripts/prettify/prettify.js"></script>
+    <script src="scripts/prettify/lang-css.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="styles/prettify.css">
+    <link type="text/css" rel="stylesheet" href="styles/jsdoc.css">
+    <script src="scripts/nav.js" defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<input type="checkbox" id="nav-trigger" class="nav-trigger" />
+<label for="nav-trigger" class="navicon-button x">
+  <div class="navicon"></div>
+</label>
+
+<label for="nav-trigger" class="overlay"></label>
+
+<nav >
+    
+    <input type="text" id="nav-search" placeholder="Search" />
+    
+    <h2><a href="index.html">Home</a></h2><h3>Classes</h3><ul><li><a href="blocker.html">blocker</a><ul class='methods'><li data-type='method'><a href="blocker.html#start">start</a></li><li data-type='method'><a href="blocker.html#stop">stop</a></li></ul></li><li><a href="codedata.html">codedata</a><ul class='methods'><li data-type='method'><a href="codedata.html#append">append</a></li><li data-type='method'><a href="codedata.html#codedata_getFirstName">codedata_getFirstName</a></li><li data-type='method'><a href="codedata.html#get">get</a></li><li data-type='method'><a href="codedata.html#name">name</a></li></ul></li><li><a href="cookie.html">cookie</a><ul class='methods'><li data-type='method'><a href="cookie.html#get">get</a></li><li data-type='method'><a href="cookie.html#set">set</a></li></ul></li><li><a href="date.html">date</a><ul class='methods'><li data-type='method'><a href="date.html#add">add</a></li></ul></li><li><a href="debug.html">debug</a><ul class='methods'><li data-type='method'><a href="debug.html#clear">clear</a></li></ul></li><li><a href="dsgrid.html">dsgrid</a><ul class='methods'><li data-type='method'><a href="dsgrid.html#addButton">addButton</a></li><li data-type='method'><a href="dsgrid.html#addColumn">addColumn</a></li><li data-type='method'><a href="dsgrid.html#addGroupHeader">addGroupHeader</a></li><li data-type='method'><a href="dsgrid.html#addRow">addRow</a></li><li data-type='method'><a href="dsgrid.html#deleteRow">deleteRow</a></li><li data-type='method'><a href="dsgrid.html#getDs">getDs</a></li><li data-type='method'><a href="dsgrid.html#getRowData">getRowData</a></li><li data-type='method'><a href="dsgrid.html#getRowIndex">getRowIndex</a></li><li data-type='method'><a href="dsgrid.html#setFormatter">setFormatter</a></li><li data-type='method'><a href="dsgrid.html#setTableDnD">setTableDnD</a></li></ul></li><li><a href="dsgridHTC.html">dsgridHTC</a><ul class='methods'><li data-type='method'><a href="dsgridHTC.html#addRow">addRow</a></li><li data-type='method'><a href="dsgridHTC.html#addSorting">addSorting</a></li><li data-type='method'><a href="dsgridHTC.html#deleteRow">deleteRow</a></li><li data-type='method'><a href="dsgridHTC.html#getHeaderArea">getHeaderArea</a></li><li data-type='method'><a href="dsgridHTC.html#getLoader">getLoader</a></li><li data-type='method'><a href="dsgridHTC.html#getRowData">getRowData</a></li><li data-type='method'><a href="dsgridHTC.html#~delAction">delAction</a></li></ul></li><li><a href="error.html">error</a><ul class='methods'><li data-type='method'><a href="error.html#show">show</a></li></ul></li><li><a href="event.html">event</a><ul class='methods'><li data-type='method'><a href="event.html#preventDefault">preventDefault</a></li></ul></li><li><a href="file.html">file</a><ul class='methods'><li data-type='method'><a href="file.html#download">download</a></li></ul></li><li><a href="jqgrid.html">jqgrid</a><ul class='methods'><li data-type='method'><a href="jqgrid.html#activateGrid">activateGrid</a></li><li data-type='method'><a href="jqgrid.html#addAction">addAction</a></li><li data-type='method'><a href="jqgrid.html#addButton">addButton</a></li><li data-type='method'><a href="jqgrid.html#addColumn">addColumn</a></li><li data-type='method'><a href="jqgrid.html#addElementEvent">addElementEvent</a></li><li data-type='method'><a href="jqgrid.html#addFormatter">addFormatter</a></li><li data-type='method'><a href="jqgrid.html#addGroupHeader">addGroupHeader</a></li><li data-type='method'><a href="jqgrid.html#addRow">addRow</a></li><li data-type='method'><a href="jqgrid.html#addRows">addRows</a></li><li data-type='method'><a href="jqgrid.html#addSorting">addSorting</a></li><li data-type='method'><a href="jqgrid.html#appendFrozenGroupHeaderDummyTh">appendFrozenGroupHeaderDummyTh</a></li><li data-type='method'><a href="jqgrid.html#appendFrozenRowspanDummyTd">appendFrozenRowspanDummyTd</a></li><li data-type='method'><a href="jqgrid.html#applyRowspan">applyRowspan</a></li><li data-type='method'><a href="jqgrid.html#delAction">delAction</a></li><li data-type='method'><a href="jqgrid.html#deleteRow">deleteRow</a></li><li data-type='method'><a href="jqgrid.html#deleteSelectedRows">deleteSelectedRows</a></li><li data-type='method'><a href="jqgrid.html#element">element</a></li><li data-type='method'><a href="jqgrid.html#getButton">getButton</a></li><li data-type='method'><a href="jqgrid.html#getColModel">getColModel</a></li><li data-type='method'><a href="jqgrid.html#getDs">getDs</a></li><li data-type='method'><a href="jqgrid.html#getGroupingSelectedData">getGroupingSelectedData</a></li><li data-type='method'><a href="jqgrid.html#getLoader">getLoader</a></li><li data-type='method'><a href="jqgrid.html#getOption">getOption</a></li><li data-type='method'><a href="jqgrid.html#getRowData">getRowData</a></li><li data-type='method'><a href="jqgrid.html#getRowId">getRowId</a></li><li data-type='method'><a href="jqgrid.html#getRowIndex">getRowIndex</a></li><li data-type='method'><a href="jqgrid.html#getTableElement">getTableElement</a></li><li data-type='method'><a href="jqgrid.html#initButtons">initButtons</a></li><li data-type='method'><a href="jqgrid.html#initCodeData">initCodeData</a></li><li data-type='method'><a href="jqgrid.html#initDataset">initDataset</a></li><li data-type='method'><a href="jqgrid.html#initFormatters">initFormatters</a></li><li data-type='method'><a href="jqgrid.html#loadComplete">loadComplete</a></li><li data-type='method'><a href="jqgrid.html#removeContextMenu">removeContextMenu</a></li><li data-type='method'><a href="jqgrid.html#removeTitlebar">removeTitlebar</a></li><li data-type='method'><a href="jqgrid.html#reset">reset</a></li><li data-type='method'><a href="jqgrid.html#reset2">reset2</a></li><li data-type='method'><a href="jqgrid.html#resetDummyDataDiv">resetDummyDataDiv</a></li><li data-type='method'><a href="jqgrid.html#resetFrozenScrollGapDiv">resetFrozenScrollGapDiv</a></li><li data-type='method'><a href="jqgrid.html#resetOrderNo">resetOrderNo</a></li><li data-type='method'><a href="jqgrid.html#resetPagingInfo">resetPagingInfo</a></li><li data-type='method'><a href="jqgrid.html#resetSummaryData">resetSummaryData</a></li><li data-type='method'><a href="jqgrid.html#resetSummaryLabel">resetSummaryLabel</a></li><li data-type='method'><a href="jqgrid.html#resizeAll">resizeAll</a></li><li data-type='method'><a href="jqgrid.html#resizeHeight">resizeHeight</a></li><li data-type='method'><a href="jqgrid.html#resizeWidth">resizeWidth</a></li><li data-type='method'><a href="jqgrid.html#setButton">setButton</a></li><li data-type='method'><a href="jqgrid.html#setFormatter">setFormatter</a></li><li data-type='method'><a href="jqgrid.html#setFrozen">setFrozen</a></li><li data-type='method'><a href="jqgrid.html#setGrouping">setGrouping</a></li><li data-type='method'><a href="jqgrid.html#setMultiSelect">setMultiSelect</a></li><li data-type='method'><a href="jqgrid.html#setOption">setOption</a></li><li data-type='method'><a href="jqgrid.html#setPaging">setPaging</a></li><li data-type='method'><a href="jqgrid.html#setRowAction">setRowAction</a></li><li data-type='method'><a href="jqgrid.html#setRowSelectionByActionColumn">setRowSelectionByActionColumn</a></li><li data-type='method'><a href="jqgrid.html#setRowspan">setRowspan</a></li><li data-type='method'><a href="jqgrid.html#setSelection">setSelection</a></li><li data-type='method'><a href="jqgrid.html#setSummary">setSummary</a></li><li data-type='method'><a href="jqgrid.html#setTableDnD">setTableDnD</a></li><li data-type='method'><a href="jqgrid.html#setTreeGrid">setTreeGrid</a></li><li data-type='method'><a href="jqgrid.html#showHideCol">showHideCol</a></li><li data-type='method'><a href="jqgrid.html#stopEdit">stopEdit</a></li><li data-type='method'><a href="jqgrid.html#toggleFilterToolbar">toggleFilterToolbar</a></li><li data-type='method'><a href="jqgrid.html#~tableDnDUpdate">tableDnDUpdate</a></li></ul></li><li><a href="location.html">location</a><ul class='methods'><li data-type='method'><a href="location.html#url">url</a></li></ul></li><li><a href="message.html">message</a><ul class='methods'><li data-type='method'><a href="message.html#initialize">initialize</a></li><li data-type='method'><a href="message.html#toHTML">toHTML</a></li></ul></li><li><a href="proxy.html">proxy</a><ul class='methods'><li data-type='method'><a href="proxy.html#abort">abort</a></li><li data-type='method'><a href="proxy.html#body">body</a></li><li data-type='method'><a href="proxy.html#clone">clone</a></li><li data-type='method'><a href="proxy.html#copy">copy</a></li><li data-type='method'><a href="proxy.html#data">data</a></li><li data-type='method'><a href="proxy.html#error">error</a></li><li data-type='method'><a href="proxy.html#execute">execute</a></li><li data-type='method'><a href="proxy.html#file">file</a></li><li data-type='method'><a href="proxy.html#files">files</a></li><li data-type='method'><a href="proxy.html#form">form</a></li><li data-type='method'><a href="proxy.html#grid">grid</a></li><li data-type='method'><a href="proxy.html#header">header</a></li><li data-type='method'><a href="proxy.html#html">html</a></li><li data-type='method'><a href="proxy.html#isReload">isReload</a></li><li data-type='method'><a href="proxy.html#json">json</a></li><li data-type='method'><a href="proxy.html#jsons">jsons</a></li><li data-type='method'><a href="proxy.html#on">on</a></li><li data-type='method'><a href="proxy.html#option">option</a></li><li data-type='method'><a href="proxy.html#output">output</a></li><li data-type='method'><a href="proxy.html#param">param</a></li><li data-type='method'><a href="proxy.html#params">params</a></li><li data-type='method'><a href="proxy.html#prevent">prevent</a></li><li data-type='method'><a href="proxy.html#progressbar">progressbar</a></li><li data-type='method'><a href="proxy.html#reload">reload</a></li><li data-type='method'><a href="proxy.html#type">type</a></li><li data-type='method'><a href="proxy.html#url">url</a></li></ul></li><li><a href="replaceLoginPage.html">replaceLoginPage</a></li><li><a href="session.html">session</a><ul class='methods'><li data-type='method'><a href="session.html#keep">keep</a></li></ul></li><li><a href="text.html">text</a><ul class='methods'><li data-type='method'><a href="text.html#endsWith">endsWith</a></li><li data-type='method'><a href="text.html#lpad">lpad</a></li><li data-type='method'><a href="text.html#nvl">nvl</a></li><li data-type='method'><a href="text.html#nvl2">nvl2</a></li><li data-type='method'><a href="text.html#replaceAll">replaceAll</a></li><li data-type='method'><a href="text.html#rpad">rpad</a></li><li data-type='method'><a href="text.html#startsWith">startsWith</a></li><li data-type='method'><a href="text.html#string">string</a></li><li data-type='method'><a href="text.html#toCamelCase">toCamelCase</a></li><li data-type='method'><a href="text.html#toHTML">toHTML</a></li><li data-type='method'><a href="text.html#toUnderscores">toUnderscores</a></li><li data-type='method'><a href="text.html#trim">trim</a></li></ul></li><li><a href="url.html">url</a></li><li><a href="viewer.html">viewer</a><ul class='methods'><li data-type='method'><a href="viewer.html#url">url</a></li></ul></li><li><a href="window.html">window</a><ul class='methods'><li data-type='method'><a href="window.html#opener">opener</a></li></ul></li><li><a href="xmlHttp.html">xmlHttp</a><ul class='methods'><li data-type='method'><a href="xmlHttp.html#send">send</a></li></ul></li></ul><h3>Modules</h3><ul><li><a href="module-te02.html">te02</a></li></ul><h3>Global</h3><ul><li><a href="global.html#anyBoolean">anyBoolean</a></li><li><a href="global.html#controls">controls</a></li><li><a href="global.html#dataImporter">dataImporter</a></li><li><a href="global.html#excelImporter">excelImporter</a></li><li><a href="global.html#isPopup">isPopup</a></li><li><a href="global.html#object_init">object_init</a></li><li><a href="global.html#rootWindow">rootWindow</a></li><li><a href="global.html#scrollbarWidth">scrollbarWidth</a></li><li><a href="global.html#tag">tag</a></li><li><a href="global.html#topWindow">topWindow</a></li></ul>
+</nav>
+
+<div id="main">
+    
+    <h1 class="page-title">window</h1>
+    
+
+    
+
+
+
+
+<section>
+
+<header>
+    
+        <h2>
+        window
+        </h2>
+        
+    
+</header>
+
+<article>
+    
+        <div class="container-overview">
+        
+            
+
+    
+
+    <h4 class="name" id="window"><span class="type-signature"></span>new window<span class="signature">(isRootWindow)</span><span class="type-signature"> &rarr; {Object}</span></h4>
+
+    
+
+
+
+
+<dl class="details">
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="any.js.html">any.js</a>, <a href="any.js.html#line6361">line 6361</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+<div class="description usertext">
+    <p>윈도우</p>
+</div>
+
+
+
+
+
+
+
+
+
+    <h5>Example</h5>
+    
+    <pre class="prettyprint"><code>&lt;구 버전>any.window = function (iType, bReGet) {    var windowId;    var windowPath;    var params = new Array();    if (iType == null) iType = 0;    if (bReGet == true) {        return new any.window(iType);    }    if (iType == 2 &amp;&amp; any.topPageType == "popup" &amp;&amp; top.window.dialogArguments != null &amp;&amp; top.opener != null) {        return top.opener.any.window(iType, true);    }    this.path;    this.onReload;    this.arg = new Object();    this.opt = new Object();    this.rtn;    this.addParam = function (sName, sValue) {        params.push({ name: sName, value: sValue });    }    this.setWindowId = function (winId) {        if (winId != null) {            windowId = winId;            return;        }        if (this.path == null || this.path == "") return;        var sPath = (this.path.indexOf("?") == -1 ? this.path : this.path.substr(0, this.path.indexOf("?")));        var aTemp = new Array();        var charCode;        aTemp.push(window.location.host);        aTemp.push(any.sessionId);        aTemp.push((window["_POPUP_FRAME_"] == true ? document.frames[0] : window).document.location.pathname);        aTemp.push(sPath.substr(sPath.indexOf("//") + 1));        windowId = aTemp.join("_");        for (var i = windowId.length - 1; i >= 0; i--) {            charCode = windowId.charCodeAt(i);            if (charCode >= 48 &amp;&amp; charCode &lt;= 57) continue;            if (charCode >= 65 &amp;&amp; charCode &lt;= 90) continue;            if (charCode >= 97 &amp;&amp; charCode &lt;= 122) continue;            if (charCode == 95) continue;            windowId = windowId.replace(windowId.charAt(i), "");        }    }    this.show = function (useFrame) {        if (this.path == null || this.path == "") return;        if (this.path.indexOf("/") == -1) {            this.path = window.location.pathname.substr(0, window.location.pathname.lastIndexOf("/") + 1) + this.path;        }        var oArg = new Object();        oArg.opener = self;        oArg.messageData = any.messageData;        oArg.onReload = this.onReload;        oArg.arg = this.arg;        if (useFrame == null || useFrame == true) {            windowPath = top.getRoot() + "/anyfive/framework/util/popup.jsp";            oArg.windowInfo = { type: iType, path: any.getServletPath(this.path), params: params };        } else {            windowPath = this.path;            for (var i = 0; i &lt; params.length; i++) {                windowPath += (i == 0 ? "?" : "&amp;") + params[i].name + "=" + params[i].value;            }        }        if (windowId == null) this.setWindowId();        if (this.opt.width == null) this.opt.width = 850;        if (this.opt.height == null) this.opt.height = 600;        this.opt.width = parseInt(this.opt.width, 10);        this.opt.height = parseInt(this.opt.height, 10);        try {            switch (iType) {                case 0: //showModalDialog                    this.rtn = showDialog(this, oArg);                    return this.rtn;                    break;                case 1: //showModelessDialog                    showDialog(this, oArg);                    break;                case 2: //open window                    openWindow(this, oArg);                    break;            }        } catch (ex) {            alert("팝업창을 열 수 없습니다.\n\n현재 사이트의 팝업을 항상 허용으로 설정해 주시기 바랍니다.");        }    }    this.close = function (path) {        try {            for (var item in window["_CHILD_WINDOWS_"]) {                if (window["_WINDOW_ARGUMENTS_"][item].windowInfo.path == path) {                    closeWindow(item);                    break;                }            }        } catch (ex) {        }    }    function showDialog(pop, oArg) {        var oOpt = new Object();        var winWidth = pop.opt.width;        var winHeight = pop.opt.height;        if (navigator.appVersion.indexOf("MSIE 6") != -1) {            winWidth += 6;            winHeight += 52;        }        if (pop.opt.edge != "raised") {            winWidth += 4;            winHeight += 4;        }        oOpt.dialogWidth = String(winWidth) + "px";        oOpt.dialogHeight = String(winHeight) + "px";        oOpt.dialogLeft = String(pop.opt.left == null ? "" : pop.opt.left) + "px";        oOpt.dialogTop = String(pop.opt.top == null ? "" : pop.opt.top) + "px";        if (pop.opt.left != null || pop.opt.top != null) {            oOpt.center = "no";        } else {            oOpt.center = (pop.opt.center == null ? "yes" : pop.opt.center);        }        oOpt.dialogHide = (pop.opt.dialogHide == null ? "no" : pop.opt.dialogHide);        oOpt.edge = (pop.opt.edge == null ? "sunken" : pop.opt.edge);        oOpt.help = (pop.opt.help == null ? "no" : pop.opt.help);        oOpt.resizable = (pop.opt.resizable == null ? "no" : pop.opt.resizable);        oOpt.scroll = "no";        oOpt.status = (pop.opt.status == null ? "no" : pop.opt.status);        oOpt.unadorned = (pop.opt.unadorned == null ? "yes" : pop.opt.unadorned);        if (iType == 0) {            return window.showModalDialog(windowPath, oArg, getOptionString(oOpt, ":", ";"));        } else {            if (window["_CHILD_DIALOGS_"] == null) {                window["_CHILD_DIALOGS_"] = new Object();            }            try {                window["_CHILD_DIALOGS_"][windowId].$go(oArg);            } catch (ex) {                window["_CHILD_DIALOGS_"][windowId] = window.showModelessDialog(windowPath, oArg, getOptionString(oOpt, ":", ";"));            }        }    }    function openWindow(pop, oArg) {        var oOpt = new Object();        if (pop.opt.left == null) pop.opt.left = Math.max(window.screen.availWidth - pop.opt.width - 10, 0) / 2;        if (pop.opt.top == null) pop.opt.top = Math.max(window.screen.availHeight - pop.opt.height - 58, 0) / 2;        oOpt.width = String(pop.opt.width) + "px";        oOpt.height = String(pop.opt.height) + "px";        oOpt.left = String(pop.opt.left) + "px";        oOpt.top = String(pop.opt.top) + "px";        oOpt.channelmode = (pop.opt.channelmode == null ? "no" : pop.opt.channelmode);        oOpt.directories = (pop.opt.directories == null ? "no" : pop.opt.directories);        oOpt.fullscreen = (pop.opt.fullscreen == null ? "no" : pop.opt.fullscreen);        oOpt.location = (pop.opt.location == null ? "no" : pop.opt.location);        oOpt.menubar = (pop.opt.menubar == null ? "no" : pop.opt.menubar);        oOpt.resizable = (pop.opt.resizable == null ? "no" : pop.opt.resizable);        oOpt.scrollbars = "no";        oOpt.status = (pop.opt.status == null ? "yes" : pop.opt.status);        oOpt.titlebar = (pop.opt.titlebar == null ? "no" : pop.opt.titlebar);        oOpt.toolbar = (pop.opt.toolbar == null ? "no" : pop.opt.toolbar);        if (window["_WINDOW_ARGUMENTS_"] == null) {            window["_WINDOW_ARGUMENTS_"] = new Object();        }        window["_WINDOW_ARGUMENTS_"][windowId] = oArg;        if (window["_CHILD_WINDOWS_"] == null) {            window["_CHILD_WINDOWS_"] = new Object();        }        window["_CHILD_WINDOWS_"][windowId] = window.open(windowPath, windowId, getOptionString(oOpt, "=", ","), true);        if (window["_CLOSE_ALL_CHILD_WINDOWS_ATTACHED_"] != true) {            window.attachEvent("onunload", closeAllChildWindows);            window["_CLOSE_ALL_CHILD_WINDOWS_ATTACHED_"] = true;        }    }    function getOptionString(obj, delimiter, separator) {        var arr = new Array();        for (var item in obj) {            arr.push(item + delimiter + obj[item]);        }        return arr.join(separator);    }    function closeAllChildWindows() {        try {            for (var item in window["_CHILD_WINDOWS_"]) {                closeWindow(item);            }        } catch (ex) {        }    }    function closeWindow(item) {        try {            window["_CHILD_WINDOWS_"][item].close();            window["_CHILD_WINDOWS_"][item] = null;        } catch (ex) {        }    }}</code></pre>
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>isRootWindow</code></td>
+            
+
+            <td class="type">
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"></td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5>Returns:</h5>
+
+        
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">Object</span>
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+        </div>
+    
+
+    
+
+    
+
+    
+    
+    
+
+     
+
+    
+
+    
+
+    
+        <h3 class="subsection-title">Methods</h3>
+
+        
+            
+
+    
+
+    <h4 class="name" id="opener"><span class="type-signature"></span>opener<span class="signature">(win)</span><span class="type-signature"> &rarr; {Object|Window|*}</span></h4>
+
+    
+
+
+
+
+<dl class="details">
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="any.js.html">any.js</a>, <a href="any.js.html#line6392">line 6392</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+<div class="description usertext">
+    <p>오프너</p>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>win</code></td>
+            
+
+            <td class="type">
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"></td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5>Returns:</h5>
+
+        
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">Object</span>
+|
+
+<span class="param-type">Window</span>
+|
+
+<span class="param-type">*</span>
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+    
+
+    
+
+    
+</article>
+
+</section>
+
+
+
+
+    
+    
+</div>
+
+<br class="clear">
+
+<footer>
+    Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.6.10</a> on Tue Jul 05 2022 17:25:16 GMT+0900 (대한민국 표준시) using the <a href="https://github.com/clenemt/docdash">docdash</a> theme.
+</footer>
+
+<script>prettyPrint();</script>
+<script src="scripts/polyfill.js"></script>
+<script src="scripts/linenumber.js"></script>
+
+<script src="scripts/search.js" defer></script>
+
+
+
+</body>
+</html>
