@@ -1854,7 +1854,7 @@ any.object.toBoolean = function (obj, defaultValue) {
  *
  * @constructs text
  *
- * @param {String}
+ * @param {string}
  * @returns {{}}
  *
  */
@@ -10475,7 +10475,7 @@ any1 = function () {
     /**
      * 구 버전 테스트 2-2
      *
-     * @param {String} 구 버전 테스트 2-2
+     * @param {string} 구 버전 테스트 2-2
      * @returns {null|*} 구 버전 테스트 2-2
      *
      * @memberOf te02#
@@ -11398,6 +11398,9 @@ jqgrid = function () {
      * shrinkToFit 이 옵션은 jqgrid width부분 조정해주는 옵션.
      * 옵션이 true이거나 없는 경우에는 grid의 widht가 자동으로 조정이 됨.
      *
+     * rowAlterable 로우 수정 가능 여부.
+     * ExpandColClick
+     *
      * @memberOf jqgrid# 
      */
     function setOption() {
@@ -11778,8 +11781,8 @@ jqgrid = function () {
     /**
      * 정렬 기능(jqGrid, dsGridHTC 동일 이름)
      *
-     * @param {String} name
-     * @param {String} order
+     * @param {string} name
+     * @param {string} order
      *
      * @memberOf jqgrid#
      */
@@ -11939,8 +11942,8 @@ jqgrid = function () {
     /**
      * 합계 세팅
      * 
-     * @param {String} label
-     * @param {String} css
+     * @param {string} label
+     * @param {string} css
      *
      * @memberOf jqgrid#
      */
@@ -12024,8 +12027,8 @@ jqgrid = function () {
     /**
      * 리셋 합계 데이터 
      * 
-     * @param {String} name
-     * @param {String} value
+     * @param {string} name
+     * @param {string} value
      *
      * @memberOf jqgrid#
      */
@@ -12141,7 +12144,7 @@ jqgrid = function () {
     /**
      * 버튼 추가(내부 펑션) from function initButtons() { (dsGridHTC, jqGrid 동일 이름)
      * 
-     * @param {String} name
+     * @param {string} name
      * @param {Object} spec
      * 
      * @memberOf jqgrid#
@@ -12172,7 +12175,7 @@ jqgrid = function () {
     /**
      * 로우 클릭 시 실행할 액션 추가
      * 
-     * @param {String} colName
+     * @param {string} colName
      * @param {function} action
      * @param {boolean} check
      * @param {Object} css
@@ -12216,7 +12219,7 @@ jqgrid = function () {
     /**
      * 액션 삭제(dsGridHTC, jqGrid 동일 이름)
      *
-     * @param {String} colName
+     * @param {string} colName
      *
      * @memberOf jqgrid#
      */
@@ -12376,7 +12379,7 @@ jqgrid = function () {
     /**
      * 로우 삭제
      * 
-     * @param {String} rowId
+     * @param {string} rowId
      *
      * @memberOf jqgrid#
      */
@@ -12417,7 +12420,7 @@ jqgrid = function () {
     /**
      * 오더 넘버 재 설정
      *
-     * @param {String} columnName
+     * @param {string} columnName
      *
      * @memberOf jqgrid#
      */
@@ -12884,7 +12887,7 @@ jqgrid = function () {
      * 밸류 값 가져오기(jqGrid, dsGrid, dsGridHTC 동일 이름)
      * 
      * @param {Number} rowVar
-     * @param {String} colName
+     * @param {string} colName
      * @returns {null|*}
      *
      * @memberOf jqgrid#
@@ -12911,9 +12914,9 @@ jqgrid = function () {
      * 밸류 값 세팅(내부 펑션)
      * 
      * @param {Number} rowVar
-     * @param {String} colName
-     * @param {String} value
-     * @param {String} style
+     * @param {string} colName
+     * @param {string} value
+     * @param {string} style
      * 
      * @memberOf jqgrid#
      */
@@ -13061,7 +13064,7 @@ jqgrid = function () {
     /**
      * 자동 컬럼 세팅(미사용)
      *
-     * @param {String} val
+     * @param {string} val
      *
      * @memberOf jqgrid#
      */
@@ -13183,7 +13186,7 @@ jqgrid = function () {
     /**
      * 선택한 로우의 데이터 리스트 가져오기(내부 펑션)
      *
-     * @returns {*[]}
+     * @returns {}
      *
      * @memberOf jqgrid#
      */
@@ -13287,7 +13290,7 @@ jqgrid = function () {
      * 데이터 테이블 셀 가져오기
      *
      * @param {Number} rowVar
-     * @param {String} colName
+     * @param {string} colName
      * @returns {*}
      *
      * @memberOf jqgrid#
@@ -13310,7 +13313,7 @@ jqgrid = function () {
     /**
      * 불능화 세팅(미사용)
      *
-     * @param {String} val
+     * @param {string} val
      *
      * @memberOf jqgrid#
      */
@@ -13354,7 +13357,7 @@ jqgrid = function () {
     /**
      * 다운로드 타이틀 설정(미사용)
      * 
-     * @param {String} name
+     * @param {string} name
      *
      * @memberOf jqgrid#
      */
@@ -13761,7 +13764,7 @@ jqgrid = function () {
     /**
      * 설정 리셋
      * 
-     * @param {String} addonPath
+     * @param {string} addonPath
      * @param {callback} callback
      */
     function resetConfig(addonPath, callback) {
@@ -14279,7 +14282,7 @@ dsgrid = function () {
     /**
      * 버튼 추가(dsGridHTC, jqGrid 동일 이름)
      * 
-     * @param {String} text
+     * @param {string} text
      * @param {function} func
      * @returns {*|jQuery}
      * 
@@ -14557,7 +14560,7 @@ dsgrid = function () {
      * 테이블 정렬 조건 세팅
      *
      * @param {array} colNames
-     * @param {String} orderColName
+     * @param {string} orderColName
      *
      * @memberOf dsgrid#
      */
@@ -14577,7 +14580,7 @@ dsgrid = function () {
      * 밸류 값 가져오기(jqGrid, dsGrid, dsGridHTC 동일 이름)
      *
      * @param {Number} rowVar
-     * @param {String} colName
+     * @param {string} colName
      * @returns {*|jQuery|null}
      *
      * @memberOf dsgrid#
@@ -14602,8 +14605,8 @@ dsgrid = function () {
      * 밸류 값 세팅
      *
      * @param {Number} rowVar
-     * @param {String} colName
-     * @param {String} value
+     * @param {string} colName
+     * @param {string} value
      *
      * @memberOf dsgrid#
      */
@@ -15091,7 +15094,7 @@ dsgrid = function () {
     /**
      * 불능화 세팅
      * 
-     * @param {String} val
+     * @param {string} val
      *
      * @memberOf dsgrid#
      */
@@ -15801,8 +15804,8 @@ dsgridHTC = function () {
     /**
      * 정렬 기능(jqGrid, dsGridHTC 동일 이름)
      *
-     * @param {String} name
-     * @param {String} order
+     * @param {string} name
+     * @param {string} order
      *
      * @memberOf dsgridHTC#
      */
@@ -15849,7 +15852,7 @@ dsgridHTC = function () {
     /**
      * 액션 삭제(dsGridHTC, jqGrid 동일 이름)
      *
-     * @param {String} sColKey
+     * @param {string} sColKey
      */
     function delAction(sColKey) {
         gGridActions[sColKey] = null;
@@ -16816,7 +16819,7 @@ dsgridHTC = function () {
      * 밸류 값 가져오기(jqGrid, dsGrid, dsGridHTC 동일 이름)
      *
      * @param {Number} iRowIdx
-     * @param {String} sColKey
+     * @param {string} sColKey
      * @returns {string|null|*}
      *
      * @memberOf dsgridHTC#
@@ -16860,8 +16863,8 @@ dsgridHTC = function () {
      * 밸류 값 세팅
      *
      * @param {Number} iRowIdx
-     * @param {String} sColKey
-     * @param {String} sValue
+     * @param {string} sColKey
+     * @param {string} sValue
      *
      * @memberOf dsgridHTC#
      */
